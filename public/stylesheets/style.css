@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height:100vh;
+}
+
+::placeholder {
+  font-size: 11px;
+}
+
+.card {
+  border: 1px solid #1b1b1b;
+  border-radius: 16px;
+  background-color: #222222;
+  padding: 20px 20px; 
+}
+.card-img {
+  width: 200px;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+.card-text {
+  font-size: 50px;
+  color:#ffce45;
+  font-weight: 800;
+}
+.card-input {
+  width: 240px;
+  padding: 10px 5px;
+  border-radius: 8px;
+  margin-right: 8px;
+  border: none;
+}
+.card-btn {
+  background-color: #ffce45;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.card-btn:hover {
+  opacity: .8;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+select {
+  width: 120px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
